@@ -1,4 +1,4 @@
-### **Managing Schema Changes in a Multi-Master Setup**
+### **Managing Schema Changes in a bi-directional Setup in PostgreSQL**
 
 Making schema changes in a bi-directional replication setup requires careful planning to avoid disrupting replication or causing data inconsistencies. Here's a disciplined, phased approach to adding a new column using native logical replication.
 
@@ -60,3 +60,4 @@ ALTER TABLE your_table_name MODIFY important_value numeric NOT NULL;
 If you paused replication, re-enable it after both servers have been updated to have the same schema.
 
 #### Potential Issues to Consider:
+
