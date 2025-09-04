@@ -11,4 +11,4 @@ This is a space to share knowledge about configuring bi-directional replication 
 [pglogical configuration step by step](https://github.com/berenguel/bi-directional-replication-in-Flexible-Server/blob/main/config_pglogical.sql)
 
 ## Best practices for managing DDLs changes without breaking the replication between nodes
-[to be written]
+[Schema changes best practices](https://github.com/berenguel/bi-directional-replication-in-Flexible-Server/blob/main/Schema_changes_best_practices.md)
